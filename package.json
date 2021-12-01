@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint . --ext ts,tsx --cache",
+    "lint:fix": "eslint . --ext ts,tsx . --fix --quiet",
+    "format": "prettier --loglevel warn --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "next": "12.0.1",
@@ -14,7 +17,12 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0"
+    "@cabify/eslint-config": "^1.0.2",
+    "@types/node": "^16.11.11",
+    "@types/react": "^17.0.37",
+    "eslint": "^8.3.0",
+    "eslint-config-next": "11.1.0",
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
   }
 }
