@@ -1,5 +1,10 @@
 module.exports = {
-  extends: ['next/core-web-vitals', '@cabify/eslint-config/recommended'],
+  extends: [
+    'next/core-web-vitals',
+    '@cabify/eslint-config/recommended',
+    'plugin:typescript-sort-keys/recommended',
+  ],
+  plugins: ['typescript-sort-keys', 'sort-keys-fix'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     createDefaultProgram: true,
@@ -8,5 +13,9 @@ module.exports = {
   },
   rules: {
     'import/no-default-export': 'off',
+    'sort-keys-fix/sort-keys-fix': 'error',
+  },
+  settings: {
+    reactVersion: 'detect',
   },
 };
