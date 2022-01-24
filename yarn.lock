@@ -323,10 +323,10 @@
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
   integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
-"@types/tailwindcss@2.2.4":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@types/tailwindcss/-/tailwindcss-2.2.4.tgz#c3bca7d265e608ffc50a6d1a4932b5b53be14553"
-  integrity sha512-8mIk+0BoReKiaBI4e3hjaz9YDQto+rdZ2eEExHf6AfS38FZcALQ6s8mTd+74N8BtBaLnTzLdNe5GbkzObWlSXw==
+"@types/tailwindcss@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@types/tailwindcss/-/tailwindcss-3.0.3.tgz#909d907d7e4825d053162a582777e9d096d584e2"
+  integrity sha512-SWOyuROXgBlH1MQfl5gAcjunX37l4z1bx1lrQGh2nHqJyKU/FWYymKoBOgqGjyGamiZHtYQKoNgf2IahONL+og==
 
 "@typescript-eslint/eslint-plugin@^5.4.0":
   version "5.5.0"
