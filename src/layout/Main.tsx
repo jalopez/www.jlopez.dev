@@ -1,7 +1,5 @@
-import { FC } from 'react';
+import { PropsWithChildren } from 'react';
 
-const Main: FC = ({ children }) => {
+export function Main({ children }: PropsWithChildren<object>) {
   return <main className="py-6 px-4 sm:px-6 lg:px-8 flex-1">{children}</main>;
-};
-
-export { Main };
+}

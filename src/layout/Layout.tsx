@@ -1,14 +1,14 @@
-import { FC } from 'react';
+import { FC, PropsWithChildren } from 'react';
 
 import { Footer } from './Footer';
 import { Header } from './Header';
 import { Main } from './Main';
 import { Meta } from './Meta';
 
-export interface LayoutProps {
+export type LayoutProps = PropsWithChildren<{
   description?: string;
   title?: string;
-}
+}>;
 
 const Layout: FC<LayoutProps> = ({
   title = 'Javier López Pardo - Home Page',

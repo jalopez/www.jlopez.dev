@@ -9,7 +9,7 @@ const Nav: FC = () => {
         <div className="flex items-center justify-between flex-wrap">
           <div className="w-full flex-grow items-center block mt-0">
             <div className="text-sm">
-              <NavLink href="/about">About</NavLink>
+              <NavLink href="/">About</NavLink>
               <NavLink href="/projects">Projects</NavLink>
               <NavLink href="/contact">Contact</NavLink>
             </div>

@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import { FC } from 'react';
+import { FC, PropsWithChildren } from 'react';
 
-export interface NavLinkProps {
+export type NavLinkProps = PropsWithChildren<{
   href?: string;
-}
+}>;
 
 const NavLink: FC<NavLinkProps> = ({ href = '', children }) => {
   return (
