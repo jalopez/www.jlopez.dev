@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['next/core-web-vitals', 'plugin:typescript-sort-keys/recommended'],
+  extends: [
+    'next/core-web-vitals',
+    '@cabify/eslint-config/recommended',
+    'plugin:typescript-sort-keys/recommended',
+  ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     createDefaultProgram: true,
