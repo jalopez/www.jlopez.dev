@@ -387,7 +387,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.4.0":
+"@typescript-eslint/parser@npm:^5.19.0, @typescript-eslint/parser@npm:^5.4.0":
   version: 5.19.0
   resolution: "@typescript-eslint/parser@npm:5.19.0"
   dependencies:
@@ -3932,6 +3932,7 @@ __metadata:
     "@types/react": 18.0.3
     "@types/react-dom": 18.0.0
     "@types/tailwindcss": 3.0.10
+    "@typescript-eslint/parser": ^5.19.0
     autoprefixer: 10.4.4
     eslint: 8.13.0
     eslint-config-next: 12.1.5
