@@ -1,13 +1,4 @@
 {
   "singleQuote": true,
-  "trailingComma": "all",
-  "jsonRecursiveSort": true,
-  "overrides": [
-    {
-      "files": "*.scss",
-      "options": {
-        "singleQuote": false
-      }
-    }
-  ]
+  "trailingComma": "all"
 }

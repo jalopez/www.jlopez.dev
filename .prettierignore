@@ -2,3 +2,5 @@
 node_modules
 *.d.ts
 .yarn
+.pnp.cjs
+.pnp.loader.mjs
