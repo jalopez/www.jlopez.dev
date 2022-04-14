@@ -12,10 +12,12 @@ const LinkIcon: FC<HTMLProps<HTMLAnchorElement>> = ({ children, ...rest }) => {
       <style jsx>
         {`
           .linkIcon:not(:last-child) {
-            @apply mr-3;
+            margin-right: 0.75rem;
           }
           .linkIcon :global(svg) {
-            @apply fill-current w-5 h-5;
+            fill: currentColor;
+            width: 1.25rem;
+            height: 1.25rem;
           }
         `}
       </style>
