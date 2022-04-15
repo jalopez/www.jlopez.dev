@@ -16,7 +16,13 @@ export function Header({ menuItems = [] }: HeaderProps) {
             </a>
           </Link>
         </h1>
-        <p className="text-base leading-6 text-gray-500">FullStack Developer</p>
+        <p className="text-base leading-6 text-gray-500">
+          (
+          <span aria-label="wfh" role="img">
+            🏡
+          </span>{' '}
+          Remote) FullStack Developer
+        </p>
       </div>
       <Nav menuItems={menuItems} />
     </header>

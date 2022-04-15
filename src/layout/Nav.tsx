@@ -51,7 +51,9 @@ export function Nav({ menuItems = [] }: NavProps) {
           <ul className="flex flex-col items-center justify-between min-h-[250px]">
             {menuItems.map(({ href, label }) => (
               <li className="my-8" key={href}>
-                <NavLink href={href}>{label}</NavLink>
+                <NavLink href={href} onClick={() => setIsNavOpen(false)}>
+                  {label}
+                </NavLink>
               </li>
             ))}
           </ul>
