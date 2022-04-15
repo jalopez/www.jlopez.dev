@@ -1,9 +1,11 @@
 import Link from 'next/link';
-import { FC } from 'react';
 
-import { Nav } from './Nav';
+import { Nav, NavProps } from './Nav';
 
-const Header: FC = () => {
+export interface HeaderProps {
+  menuItems?: NavProps['menuItems'];
+}
+export function Header({ menuItems = [] }: HeaderProps) {
   return (
     <header className="bg-gray-100 sticky top-0 flex flex-wrap justify-between items-center">
       <div className="max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
@@ -16,9 +18,7 @@ const Header: FC = () => {
         </h1>
         <p className="text-base leading-6 text-gray-500">FullStack Developer</p>
       </div>
-      <Nav />
+      <Nav menuItems={menuItems} />
     </header>
   );
-};
-
-export { Header };
+}

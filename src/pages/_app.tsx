@@ -1,12 +1,14 @@
 import '../styles/main.css';
 
-import type { AppProps } from 'next/app';
+import { AppProps } from 'next/app';
 
-import { Layout } from '../layout/Layout';
+import { Layout, LayoutProps } from '../layout/Layout';
+
+const menuItems: LayoutProps['menuItems'] = [];
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
+    <Layout menuItems={menuItems}>
       <Component {...pageProps} />
     </Layout>
   );

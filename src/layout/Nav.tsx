@@ -3,7 +3,14 @@ import { useState } from 'react';
 
 import { NavLink } from '../components/NavLink';
 
-export function Nav() {
+export interface NavProps {
+  menuItems?: {
+    href: string;
+    label: string;
+  }[];
+}
+
+export function Nav({ menuItems = [] }: NavProps) {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const navClassName = cn('bg-gray-100', {
@@ -42,29 +49,21 @@ export function Nav() {
             </svg>
           </div>
           <ul className="flex flex-col items-center justify-between min-h-[250px]">
-            <li className="my-8">
-              <NavLink href="/about">About</NavLink>
-            </li>
-            <li className="my-8">
-              <NavLink href="/portfolio">Portfolio</NavLink>
-            </li>
-            <li className="my-8">
-              <NavLink href="/contact">Contact</NavLink>
-            </li>
+            {menuItems.map(({ href, label }) => (
+              <li className="my-8" key={href}>
+                <NavLink href={href}>{label}</NavLink>
+              </li>
+            ))}
           </ul>
         </div>
       </section>
 
       <ul className="hidden space-x-8 lg:flex">
-        <li>
-          <NavLink href="/about">About</NavLink>
-        </li>
-        <li>
-          <NavLink href="/portfolio">Portfolio</NavLink>
-        </li>
-        <li>
-          <NavLink href="/contact">Contact</NavLink>
-        </li>
+        {menuItems.map(({ href, label }) => (
+          <li key={href}>
+            <NavLink href={href}>{label}</NavLink>
+          </li>
+        ))}
       </ul>
       <style jsx>{`
         .mobileMenu {
