@@ -1,33 +1,30 @@
+import { GetStaticPropsContext, InferGetStaticPropsType } from 'next';
+
 import { ResumeCard } from '../components/ResumeCard';
 import { SectionTitle } from '../components/SectionTitle';
+import resumeJson from '../data/resume.json';
 
-export default function Resume() {
-  return (
-    <>
-      <section>
-        <SectionTitle>Work Experience</SectionTitle>
-        <ul className="mt-2">
-          <ResumeCard
-            subtitle="Grafana Labs"
-            subtitleRight="Remote"
-            title="Senior Engineer"
-            titleRight="January 2022 - Present"
-          />
-          <ResumeCard
-            subtitle="Cabify"
-            subtitleRight="Madrid / Remote"
-            title="Principal Engineer"
-            titleRight="April 2017 - December 2021"
-          >
-            Worked as a JavaScript specialist, focused mainly in web app
-            development with React+Redux as technological stack. Also working in
-            backend side with Elixir/Phoenix
+export const getStaticProps = (_ctx: GetStaticPropsContext) => {
+  return {
+    props: {
+      resume: resumeJson,
+    },
+  };
+};
+
+export default function Resume({
+  resume,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
+  return resume.map((section) => (
+    <section key={section.title}>
+      <SectionTitle>{section.title}</SectionTitle>
+      <ul className="mt-2">
+        {section.items.map(({ body, ...rest }) => (
+          <ResumeCard key={rest.title} {...rest}>
+            {body}
           </ResumeCard>
-        </ul>
-      </section>
-      <section>
-        <SectionTitle>Education</SectionTitle>
-      </section>
-    </>
-  );
+        ))}
+      </ul>
+    </section>
+  ));
 }

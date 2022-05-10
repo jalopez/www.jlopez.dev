@@ -1,0 +1,21 @@
+[
+  {
+    "title": "Work Experience",
+    "items": [
+      {
+        "title": "Senior FullStack Engineer",
+        "titleRight": "January 2022 - Present",
+        "subtitle": "Grafana Labs",
+        "subtitleRight": "Remote",
+        "body": ""
+      },
+      {
+        "title": "Principal Engineer",
+        "titleRight": "April 2017 - December 2021",
+        "subtitle": "Cabify",
+        "subtitleRight": "Madrid / Remote",
+        "body": "Worked as a JavaScript specialist, focused mainly in web app development with React+Redux as technological stack. Also working in backend side with Elixir/Phoenix"
+      }
+    ]
+  }
+]
