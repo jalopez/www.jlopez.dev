@@ -1,6 +1,8 @@
-export default function Home() {
+import { NextPageWithLayout } from './_app';
+
+const Home: NextPageWithLayout = function Home() {
   return (
-    <section className="flex-1 flex flex-col justify-center p-4 mx-auto my-4 max-w-2xl">
+    <>
       <h2 className="my-6 text-center font-semibold text-4xl text-primary-400">
         <span aria-label="hello" role="img">
           👋
@@ -15,10 +17,14 @@ export default function Home() {
         deliver clean code. I love to participate in all application development
         steps, from product definition to delivery and deployment.
       </p>
-    </section>
+    </>
   );
-}
+};
 
 Home.layoutConfig = {
-  mainClassName: 'flex',
+  contentProps: {
+    sectionClassName: 'justify-center max-w-2xl',
+  },
 };
+
+export default Home;

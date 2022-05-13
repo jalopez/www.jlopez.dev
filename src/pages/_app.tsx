@@ -20,7 +20,7 @@ const menuItems: LayoutProps['menuItems'] = [
   // },
 ];
 
-type NextPageWithLayout = NextPage & {
+export type NextPageWithLayout = NextPage & {
   layoutConfig?: LayoutProps;
 };
 type AppPropsWithLayout = AppProps & {

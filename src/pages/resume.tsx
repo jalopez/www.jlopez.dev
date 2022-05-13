@@ -16,7 +16,7 @@ export default function Resume({
   resume,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return resume.map((section) => (
-    <section key={section.title}>
+    <div key={section.title}>
       <SectionTitle>{section.title}</SectionTitle>
       <ul className="mt-2">
         {section.items.map(({ body, ...rest }) => (
@@ -25,6 +25,6 @@ export default function Resume({
           </ResumeCard>
         ))}
       </ul>
-    </section>
+    </div>
   ));
 }

@@ -16,7 +16,7 @@ export default function Projects({
   projects,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <section>
+    <>
       <SectionTitle>Projects</SectionTitle>
       <ul className="mt-1">
         {projects.map(({ description, ...project }) => (
@@ -25,6 +25,6 @@ export default function Projects({
           </ProjectCard>
         ))}
       </ul>
-    </section>
+    </>
   );
 }
