@@ -1,0 +1,8 @@
+[
+  {
+    "title": "www.jlopez.dev",
+    "description": "This site. Built with Next.js and TailwindCSS. Deployed in vercel",
+    "codeUrl": "https://github.com/jalopez/www.jlopez.dev",
+    "tags": ["typescript", "nextjs", "tailwindcss"]
+  }
+]
