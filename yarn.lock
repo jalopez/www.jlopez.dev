@@ -2575,6 +2575,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"next-axiom@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "next-axiom@npm:0.11.0"
+  dependencies:
+    whatwg-fetch: ^3.6.2
+  peerDependencies:
+    next: ^12.1.4
+  checksum: 95744104b5afde99037d97f467bd841b51ed042e3c21340d159dd82be37e4d32bed6159d4b5cb385b644659faba24ad40c3f8e7ea94b8ec54e2f73cfe9d40082
+  languageName: node
+  linkType: hard
+
 "next-seo@npm:5.4.0":
   version: 5.4.0
   resolution: "next-seo@npm:5.4.0"
@@ -3699,6 +3710,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"whatwg-fetch@npm:^3.6.2":
+  version: 3.6.2
+  resolution: "whatwg-fetch@npm:3.6.2"
+  checksum: ee976b7249e7791edb0d0a62cd806b29006ad7ec3a3d89145921ad8c00a3a67e4be8f3fb3ec6bc7b58498724fd568d11aeeeea1f7827e7e1e5eae6c8a275afed
+  languageName: node
+  linkType: hard
+
 "which-boxed-primitive@npm:^1.0.2":
   version: 1.0.2
   resolution: "which-boxed-primitive@npm:1.0.2"
@@ -3763,6 +3781,7 @@ __metadata:
     eslint-plugin-sort-keys-fix: 1.1.2
     eslint-plugin-typescript-sort-keys: 2.1.0
     next: 12.1.6
+    next-axiom: ^0.11.0
     next-seo: 5.4.0
     postcss: 8.4.13
     prettier: 2.6.2

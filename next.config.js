@@ -1,3 +1,4 @@
+const { withAxiom } = require('next-axiom');
 // @ts-check
 
 /** @type {import('next').NextConfig} */
@@ -9,4 +10,4 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
+module.exports = withAxiom(nextConfig);

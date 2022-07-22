@@ -46,6 +46,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-sort-keys-fix", "npm:1.1.2"],\
             ["eslint-plugin-typescript-sort-keys", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:2.1.0"],\
             ["next", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:12.1.6"],\
+            ["next-axiom", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:0.11.0"],\
             ["next-seo", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:5.4.0"],\
             ["postcss", "npm:8.4.13"],\
             ["prettier", "npm:2.6.2"],\
@@ -3445,6 +3446,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["next-axiom", [\
+        ["npm:0.11.0", {\
+          "packageLocation": "./.yarn/cache/next-axiom-npm-0.11.0-23dc40d53f-95744104b5.zip/node_modules/next-axiom/",\
+          "packageDependencies": [\
+            ["next-axiom", "npm:0.11.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:0.11.0", {\
+          "packageLocation": "./.yarn/__virtual__/next-axiom-virtual-026f52301a/0/cache/next-axiom-npm-0.11.0-23dc40d53f-95744104b5.zip/node_modules/next-axiom/",\
+          "packageDependencies": [\
+            ["next-axiom", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:0.11.0"],\
+            ["@types/next", null],\
+            ["next", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:12.1.6"],\
+            ["whatwg-fetch", "npm:3.6.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/next",\
+            "next"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["next-seo", [\
         ["npm:5.4.0", {\
           "packageLocation": "./.yarn/cache/next-seo-npm-5.4.0-39d773cd1a-fe19b4f723.zip/node_modules/next-seo/",\
@@ -4758,6 +4782,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["whatwg-fetch", [\
+        ["npm:3.6.2", {\
+          "packageLocation": "./.yarn/cache/whatwg-fetch-npm-3.6.2-4bdf324792-ee976b7249.zip/node_modules/whatwg-fetch/",\
+          "packageDependencies": [\
+            ["whatwg-fetch", "npm:3.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["which", [\
         ["npm:2.0.2", {\
           "packageLocation": "./.yarn/cache/which-npm-2.0.2-320ddf72f7-1a5c563d3c.zip/node_modules/which/",\
@@ -4828,6 +4861,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-sort-keys-fix", "npm:1.1.2"],\
             ["eslint-plugin-typescript-sort-keys", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:2.1.0"],\
             ["next", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:12.1.6"],\
+            ["next-axiom", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:0.11.0"],\
             ["next-seo", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:5.4.0"],\
             ["postcss", "npm:8.4.13"],\
             ["prettier", "npm:2.6.2"],\
