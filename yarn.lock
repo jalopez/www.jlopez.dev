@@ -281,10 +281,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:17.0.32":
-  version: 17.0.32
-  resolution: "@types/node@npm:17.0.32"
-  checksum: afb05704b42032566b3da8b2d80a68883cd3b888472d1b8b4dd6c84f8fad371454f083d4e28bd30c10589187296119d92aba255638b30067afe062b5922388a5
+"@types/node@npm:18.11.12":
+  version: 18.11.12
+  resolution: "@types/node@npm:18.11.12"
+  checksum: 6c67f0998a9ad8ef0f357fcc0d72841c579576c746cfbac67c9d0229e1cd219d3b96297c2caaeaa4084ba7e9ad112b412e64af4066e522faa0be4ef9ad0a613a
   languageName: node
   linkType: hard
 
@@ -3769,7 +3769,7 @@ __metadata:
   resolution: "www.jalopez.dev@workspace:."
   dependencies:
     "@cabify/eslint-config": 1.0.2
-    "@types/node": 17.0.32
+    "@types/node": 18.11.12
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.3
     "@types/tailwindcss": 3.0.10
