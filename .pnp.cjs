@@ -34,7 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@cabify/eslint-config", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:1.0.2"],\
-            ["@types/node", "npm:17.0.32"],\
+            ["@types/node", "npm:18.14.5"],\
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.3"],\
             ["@types/tailwindcss", "npm:3.0.10"],\
@@ -406,10 +406,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@types/node", [\
-        ["npm:17.0.32", {\
-          "packageLocation": "./.yarn/cache/@types-node-npm-17.0.32-7adcfa91dc-afb05704b4.zip/node_modules/@types/node/",\
+        ["npm:18.14.5", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.14.5-3400879add-415fb0edc1.zip/node_modules/@types/node/",\
           "packageDependencies": [\
-            ["@types/node", "npm:17.0.32"]\
+            ["@types/node", "npm:18.14.5"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -4849,7 +4849,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["www.jalopez.dev", "workspace:."],\
             ["@cabify/eslint-config", "virtual:5bab421ccf5cc72a0b6be6e17aa19ad66098ddd4d33699255e2aca9bb97a52af8a83afaccab328083d16be58dc1bd445c3203b84c9138dda4f1c4a552f551886#npm:1.0.2"],\
-            ["@types/node", "npm:17.0.32"],\
+            ["@types/node", "npm:18.14.5"],\
             ["@types/react", "npm:18.0.9"],\
             ["@types/react-dom", "npm:18.0.3"],\
             ["@types/tailwindcss", "npm:3.0.10"],\
